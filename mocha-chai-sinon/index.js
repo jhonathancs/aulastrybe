@@ -26,7 +26,7 @@ if (respostaCenario2 === 'aprovado') {
 
 console.log('Quando a média for igual a 7, retorna "aprovado":');
 
-const respostaCenario3 = calculaSituacao(6);
+const respostaCenario3 = calculaSituacao(7);
 if (respostaCenario3 === 'aprovado') {
   console.log(`Ok 🚀`);
 } else {
@@ -35,3 +35,7 @@ if (respostaCenario3 === 'aprovado') {
 // console:
 // Quando a média for igual a 7, retorna "aprovado":
 // Resposta não esperada 🚨
+
+const resposta = calculaSituacao(4);
+
+expect(resposta).equals('reprovado');
