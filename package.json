@@ -1,0 +1,31 @@
+{
+  "name": "mocha-chai-sinon",
+  "version": "1.0.0",
+  "description": "meus conteudo acompanhado as aulas",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonathancs/AulasTrybe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonathancs/AulasTrybe/issues"
+  },
+  "homepage": "https://github.com/jhonathancs/AulasTrybe#readme"
+}
