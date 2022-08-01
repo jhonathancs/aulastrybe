@@ -1,0 +1,598 @@
+# sd-0x-trybe-futebol-clube
+
+- :warning: No README indica um blog post, mas poderia indicar o conteúdo de boas práticas de arquitetura de software do dia 23.2: https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/boas-praticas-em-arquitetura-de-software/53875b29-9a4c-446c-bb5a-fbb58cd0e70a?use_case=side_bar ou até fazer um conteúdo específico sobre variáveis de ambientes
+
+- Links importantes do README
+  - https://app.betrybe.com/course/back-end/poo-solid/solid-introducao-e-principios-s-o-e-d/d63831d8-f791-447d-9227-29e3b0ad6130/exercicios/afe9bcbb-769e-4a68-9e67-9267f631f83d?use_case=side_bar
+  - Exercício de SOLID, princípios S, O e D
+  - https://app.betrybe.com/course/back-end/docker/manipulacao-e-criacao-de-imagens-no-docker/e92d2393-3508-43ab-8a67-2b2516d25864
+  - Manipulação e Criação de imagens no Docker
+  - https://app.betrybe.com/course/back-end/docker/orquestrando-containers-com-docker-compose/6e8afaef-566a-47f2-9246-d3700db7a56a
+  - Orquestrando containers com Docker Compose
+  - https://app.betrybe.com/course/real-life-engineer/e2e_tests_puppeteer
+  - Testes Ponto-a-ponto (E2E) com Jest e Puppeteer
+  - https://app.betrybe.com/course/back-end/typescript/tipagem-estatica-e-generics/68eccf60-a982-4455-837d-da31e8726be5
+  - Tipagem Estática e Generics no TypeScript
+
+- 1 - Desenvolva em /app/backend/src/database nas pastas correspondentes, uma migration e um model para a tabela de teams
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/migracoes/87eef47e-68fc-4ca1-8913-5e3de0287292?use_case=side_bar
+  - Conteúdo explicando sobre Migrations
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/model/b20dd64d-f692-4ea9-896d-f419e97c0d29?use_case=side_bar
+  - Conteúdo explicando sobre Model
+
+- 2 - Desenvolva em /app/backend/src/database nas pastas correspondentes, uma migration e um model para a tabela de matches
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/migracoes/87eef47e-68fc-4ca1-8913-5e3de0287292?use_case=side_bar
+  - Conteúdo explicando sobre Migrations
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/model/b20dd64d-f692-4ea9-896d-f419e97c0d29?use_case=side_bar
+  - Conteúdo explicando sobre Model
+
+- 3 - Desenvolva em /app/backend/src/database nas pastas correspondentes, uma migration e um model para a tabela de users
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/migracoes/87eef47e-68fc-4ca1-8913-5e3de0287292?use_case=side_bar
+  - Conteúdo explicando sobre Migrations
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/model/b20dd64d-f692-4ea9-896d-f419e97c0d29?use_case=side_bar
+  - Conteúdo explicando sobre Model
+
+- 4 - Desenvolva testes que cubram no mínimo 5 por cento dos arquivo backend em /src com um mínimo de 7 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 5 - Desenvolva o endpoint /login no backend de maneira ele permita o acesso com dados válidos no frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 6 - Desenvolva testes que cubram no mínimo 10 por cento dos arquivo backend em /src com um mínimo de 19 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 7 - Desenvolva o endpoint /login no backend de maneira ele não permita o acesso com um email inválido no frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 8 - Desenvolva testes que cubram no mínimo 15 por cento dos arquivo backend em /src com um mínimo de 25 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 9 - Desenvolva o endpoint /login no backend de maneira ele não permita o acesso com uma senha inválida no frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 10 - Desenvolva testes que cubram no mínimo 20 por cento dos arquivo backend em /src com um mínimo de 35 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 11 - Desenvolva o endpoint /login no backend de maneira ele não permita o acesso sem informar um email no frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 12 - Desenvolva testes que cubram no mínimo 30 por cento dos arquivo backend em /src com um mínimo de 45 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 13 - Desenvolva o endpoint /login no backend de maneira ele não permita o acesso sem informar uma senha no frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 14 - Desenvolva o endpoint /login/validate no backend de maneira ele retorne os dados corretamente no frontend
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre headers HTTP -> Procurar por "Os Headers"
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7/conteudos/ba91c2c7-08b3-4733-8844-acb17f900f75/o-que-e-o-jwt/9ade4f05-a52b-4cb4-b69e-1ef2221fa5e0?use_case=side_bar
+  - Conteúdo sobre Autenticação e Autorização -> Procurar "Autenticação e Autorização"
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 15 - Desenvolva testes que cubram no mínimo 45 por cento dos arquivo backend em /src com um mínimo de 70 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 16 - Desenvolva o endpoint /teams no backend de forma que ele possa retornar todos os times corretamente
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 17 - Desenvolva o endpoint /teams/:id no backend de forma que ele possa retornar dados de um time específico
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 18 - Desenvolva testes que cubram no mínimo 60 por cento dos arquivo backend em /src com um mínimo de 80 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 19 - Desenvolva o endpoint /matches de forma que os dados apareçam corretamente na tela de partidas no frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 20 - Desenvolva o endpoint /matches de forma que seja possível filtrar as partidas em andamento na tela de partidas do frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 21 - Desenvolva o endpoint /matches de forma que seja possível filtrar as partidas finalizadas na tela de partidas do frontend
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 22 - Desenvolva testes que cubram no mínimo 80 por cento dos arquivo backend em /src com um mínimo de 100 linhas cobertas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/mocha-chai-e-sinon-testes-de-back-end-com-nodejs/361129e6-6db2-4cca-ab74-5373bcffd6d9/conteudo/2a13304c-2006-4415-99e5-4fd52aaa9f9b/testes-nao-sao-de-outro-mundo/777d3b84-476d-4c81-9778-cd39b56dbce9?use_case=side_bar
+  - Conceito mais amplo sobre a importância dos testes
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-testando-as-camadas/33e05d58-0be4-48c0-adb9-f2f3d647c96e/conteudos/3f0bca1c-3c3b-4ba3-8ce3-9fd910f7b2da/desenvolvimento-guiado-por-testes/f1bdf78c-2f23-4be6-8aec-1df2944fc817?use_case=side_bar
+  - Conteúdo sobre TDD
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/testando-apis-com-testes-de-integracao/0e610ada-1418-4fae-9d5a-8232909984f4/conteudo/436dfca2-3d47-438c-9546-a2e087b564d2/cobertura-de-testes/157f7841-dca6-4c17-99b6-a6ae56fcf1e1?use_case=side_bar
+  - Conteúdo sobre cobertura de testes
+  - https://app.betrybe.com/course/front-end/testes-automatizados-com-react-testing-library/rtl-primeiros-passos/4b749a62-3f4a-4fe6-872e-3d2853f089c8/conteudos/14a1743d-4877-48fc-8b9a-1b85696abd80?use_case=side_bar
+  - Mais conteúdo sobre cobertura de testes -> Procurar "Cobertura de Código e Cobertura com Testes Automatizados"
+
+- 23 - Desenvolva o endpoint /matches de forma que não seja possível inserir uma partida com times iguais
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 24 - Desenvolva o endpoint /matches de modo que seja possível salvar uma partida com o status de inProgress como true no banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+  - ⚠️ esse requisito não tem um conteúdo associado sobre o verbo HTTP PATCH ⚠️ 
+
+- 25 - Desenvolva o endpoint /matches de modo que seja possível salvar uma partida com o status de inProgress como false no banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 26 - Desenvolva o endpoint /matches de forma que não seja possível inserir uma partida com time que não existe na tabela teams
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 27 - Desenvolva o endpoint /matches de forma que seja possível atualizar partidas em andamento
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 28 - Desenvolva o endpoint /matches de forma que seja possível finalizar partidas em andamento
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 29 - Desenvolva o endpoint /leaderboard/home de forma que seja possível filtrar a classificações dos times quando mandantes na tela de classificação do frontend com os dados iniciais do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 30 - Desenvolva o endpoint /leaderboard/home de forma que seja possível filtrar a classificações dos times quando mandantes na tela de classificação do frontend e ao inserir a partida Botafogo 2 X 1 Grêmio a tabela será atualizada
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 31 - Desenvolva o endpoint /leaderboard/away de forma que seja possível filtrar as classificações dos times quando visitantes na tela de classificação do frontend com os dados iniciais do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 32 - Desenvolva o endpoint /leaderboard/away de forma que seja possível filtrar a classificações dos times quando visitantes na tela de classificação do frontend e ao inserir a partida Botafogo 2 X 1 Grêmio a tabela será atualizada
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 33 - Desenvolva o endpoint /leaderboard de forma que seja possível filtrar a classificação geral dos times na tela de classificação do frontend com os dados iniciais do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 34 - Desenvolva o endpoint /leaderboard de forma que seja possível filtrar a classificação geral dos times na tela de classificação do frontend e ao inserir a partida Flamengo 3 X 0 Napoli-SC a tabela será atualizada
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
+
+- 35 - Desenvolva o endpoint /leaderboard de forma que seja possível filtrar a classificação geral dos times na tela de classificação do frontend e ao inserir a partida Minas Brasília 1 X 0 Ferroviária a tabela será atualizada
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-de-software-camada-de-controller-e-service/f8eeda7e-dd20-4a59-a0d9-3d4ec20729bc/conteudos/7798fbd5-d291-46a8-89cd-b7d9bdbd68eb/o-que-e-regra-de-negocio/72bdc12f-aac6-4537-a167-75f875a7b4db?use_case=side_bar
+  - Explicações sobre Regras de Negócio
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/roteamento/bc283eda-030b-45ef-ab0e-53b493b575c4?use_case=side_bar
+  - Conteúdo sobre roteamento no nodejs
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/http/40b8ce4d-64f4-40ba-9ec3-5b899fbec338?use_case=side_bar
+  - Conteúdo sobre HTTP - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/introducao-ao-desenvolvimento-web-com-nodejs/express-http-com-nodejs/8022a9b1-7548-4298-97ce-9acfa8986e66/conteudos/66ed12f4-1b81-459b-9e95-c2e800f82805/apis/2a2489cd-5d9b-4370-aa42-8aa104f417dd?use_case=side_bar
+  - Conteúdo sobre APIs - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-camada-de-servico-e-arquitetura-rest-e-restful/arquitetura-web-rest-e-restful/6ad8e2a9-6784-4248-bd7e-6e0643157ef7/
+  - Conteúdo sobre REST - complementar sobre rotas
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/operacoes/acc6719f-7903-4a2d-a706-9cdb2ba6d90b?use_case=side_bar
+  - Conteúdo sobre Operações para ler/gravar do banco de dados
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682/conteudos/9191db66-bbb0-47a6-ac88-ed8675191be3/sequelize-do-zero/2d201084-c94a-446e-80ad-1edb497ad4ed?use_case=side_bar
+  - Video sobre boas práticas no Sequelize
+  - https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/jwt-json-web-token/acf1c24f-d531-4cf0-be9b-2384e37799d7
+  - Conteúdo sobre JWT
+  - https://app.betrybe.com/course/back-end/introducao-a-sql/encontrando-dados-em-um-banco-de-dados/d91b5797-eeb9-498d-9ea8-89895360d123/o-que-vamos-aprender/305feee2-d960-4417-a20f-868866146cc7?use_case=calendar
+  - Operações com SQL - complementar sobre operação de ler/gravar no banco de dados
